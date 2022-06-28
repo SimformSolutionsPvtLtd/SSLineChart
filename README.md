@@ -2,8 +2,8 @@
 
 SSLineChart
 =============
-[![CocoaPods Version](https://img.shields.io/cocoapods/v/SwiftyGo)](https://cocoapods.org/pods/SSLineChart)
-[![Platform](https://img.shields.io/cocoapods/p/SwiftyGo)](https://cocoapods.org/pods/SSLineChart)
+[![CocoaPods Version](https://img.shields.io/cocoapods/v/SSLineChart)](https://cocoapods.org/pods/SSLineChart)
+[![Platform](https://img.shields.io/cocoapods/p/SSLineChart)](https://cocoapods.org/pods/SSLineChart)
 [![License](https://img.shields.io/github/license/SimformSolutionsPvtLtd/SSLineChart)](https://cocoapods.org/pods/SSLineChart)
 [![Swift Version][swift-image]][swift-url]
 [![PRs Welcome][PR-image]][PR-url]
