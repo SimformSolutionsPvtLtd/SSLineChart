@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="20037" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="20006"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="SSLineChart_Example__watchOS__WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <imageView width="1" height="0.5" alignment="left" verticalAlignment="center" id="7Sj-WT-1YY"/>
+                    </items>
+                    <connections>
+                        <outlet property="graphImage" destination="7Sj-WT-1YY" id="EXL-2w-X6H"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="49" y="17"/>
+        </scene>
+    </scenes>
+</document>
