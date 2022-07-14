@@ -3,7 +3,7 @@
 //  SSLineChart
 //
 //  Created by Hitarth on 06/21/2022.
-//  Copyright (c) 2022 Hitarth. All rights reserved.
+//  Copyright (c) 2022 Simform. All rights reserved.
 //
 
 import UIKit

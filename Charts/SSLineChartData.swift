@@ -1,6 +1,5 @@
 //
-//  HBLineChartData.swift
-//  AI-HealthWatch Extension
+//  SSLineChartData.swift
 //
 //  Created by Hitarth on 09/03/22.
 //  Copyright © 2022 Simform. All rights reserved.

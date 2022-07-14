@@ -3,7 +3,7 @@
 //  SSLineChart_Example (watchOS) WatchKit Extension
 //
 //  Created by Hitarth on 21/06/22.
-//  Copyright © 2022 CocoaPods. All rights reserved.
+//  Copyright © 2022 Simform. All rights reserved.
 //
 
 import WatchKit

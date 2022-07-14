@@ -1,6 +1,5 @@
 //
-//  NewHBLineChart.swift
-//  AI-Health
+//  SSLineChart.swift
 //
 //  Created by Hitarth on 17/02/22.
 //  Copyright © 2022 Simform. All rights reserved.
