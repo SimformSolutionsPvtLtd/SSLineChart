@@ -1,0 +1,6 @@
+framework module Pods_SSLineChart_Example {
+  umbrella header "Pods-SSLineChart_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
