@@ -1,0 +1,16 @@
+PODS:
+  - SSLineChart (0.1.0)
+
+DEPENDENCIES:
+  - SSLineChart (from `../`)
+
+EXTERNAL SOURCES:
+  SSLineChart:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SSLineChart: 60e20e2c42a206f4672a7cc13b5fa686dc84793f
+
+PODFILE CHECKSUM: bda70b121d7950e9646b0e900a3e1fec42a64083
+
+COCOAPODS: 1.11.3
