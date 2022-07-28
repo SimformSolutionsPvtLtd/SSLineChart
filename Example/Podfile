@@ -1,0 +1,28 @@
+use_frameworks!
+
+platform :ios, '13.0'
+
+target 'SSLineChart_Example' do
+  pod 'SSLineChart', :path => '../'
+
+  target 'SSLineChart_Tests' do
+    inherit! :search_paths
+
+    
+  end
+  
+  target 'SSLineChart_Example (watchOS) WatchKit App' do
+    platform :watchos, '8.0'
+    
+    pod 'SSLineChart', :path => '../'
+
+  end
+
+  target 'SSLineChart_Example (watchOS) WatchKit Extension' do
+    platform :watchos, '8.0'
+    
+    pod 'SSLineChart', :path => '../'
+  end
+
+  
+end
