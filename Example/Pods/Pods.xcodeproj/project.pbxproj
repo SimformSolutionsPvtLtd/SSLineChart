@@ -1,0 +1,1276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3504B8B22EFFA1281ED9BF7390474842 /* Pods-SSLineChart_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A19F08C3F72A153DC572C969AF9E728 /* Pods-SSLineChart_Example-dummy.m */; };
+		3D0E1B84842DCC32D7F93AFD1D0AE652 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0A982A9433AACEF8A61353293CF443 /* Foundation.framework */; };
+		3FCB4D7EF39F965522B471BFEB484AE9 /* Pods-SSLineChart_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E5BCFA886619B768D82EAA83D26BD8 /* Pods-SSLineChart_Tests-dummy.m */; };
+		5F82E9833CDFC35179D74C43B91CF15C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE35B7430FD7C91E8CC808A3540CF2E /* Foundation.framework */; };
+		6176299F2ED71205D2624379B1A0348E /* Pods-SSLineChart_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4EEEE5A2CE5C29308DF4C7DCFC805F1 /* Pods-SSLineChart_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		619D832AC6CC0FBEF96C43BFAEDC19E3 /* Pods-SSLineChart_Example (watchOS) WatchKit Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F5ABD825324D4CFF6C7DD1B05C01F6 /* Pods-SSLineChart_Example (watchOS) WatchKit Extension-dummy.m */; };
+		621F179FDF27E69A00FCADF16CA07325 /* Pods-SSLineChart_Example (watchOS) WatchKit App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F83007174D79F5020DDE07B3AB983AE /* Pods-SSLineChart_Example (watchOS) WatchKit App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A428D6F0ADEDDE22C74ECB3DD57D4A07 /* SSLineChart-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B46219A9CA99C033D138D7072A9ED37 /* SSLineChart-watchOS-dummy.m */; };
+		AEFEC715143ED0F797D5E3BBFFC84595 /* Pods-SSLineChart_Example (watchOS) WatchKit Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 111C7D02DE5B214139BC50611F898614 /* Pods-SSLineChart_Example (watchOS) WatchKit Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B335C8E40D91D05D94B6741DD3929A0F /* Pods-SSLineChart_Example (watchOS) WatchKit App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D04A44C7EF30B5BDFA330AC20CD63946 /* Pods-SSLineChart_Example (watchOS) WatchKit App-dummy.m */; };
+		BA69C8AE89A73EB64EC3A5A0F4A4B83B /* SSLineChart-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC5BC6B45670AF01B9D3F07D2AA60BE8 /* SSLineChart-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC22CE1C28620A3700FF768E /* SSLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FA3EC90730D4424A012E8AB1F8EC73 /* SSLineChart.swift */; };
+		BC22CE1D28620A3A00FF768E /* SSLineChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA565F8A1E82E87F0197417E115E584 /* SSLineChartData.swift */; };
+		BC22CE1E28620A3C00FF768E /* SSLineChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA565F8A1E82E87F0197417E115E584 /* SSLineChartData.swift */; };
+		BC22CE1F28620A3E00FF768E /* SSLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FA3EC90730D4424A012E8AB1F8EC73 /* SSLineChart.swift */; };
+		C032487834C92DF3096DB5FB5F75854A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0A982A9433AACEF8A61353293CF443 /* Foundation.framework */; };
+		CEC3F94F0330C02688821C582CC7B8FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0A982A9433AACEF8A61353293CF443 /* Foundation.framework */; };
+		E00CF613C372CAE39D7C2F9793D329DB /* SSLineChart-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 070CC674029C9A51BB20FB9A89CD70BF /* SSLineChart-iOS-dummy.m */; };
+		E8B35C6E2B6727ACD104D2E613B4D855 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE35B7430FD7C91E8CC808A3540CF2E /* Foundation.framework */; };
+		E9E6E2B1822B09AF91BE0E634580D0AC /* Pods-SSLineChart_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B03623155EEBB752654965C0572CDD4A /* Pods-SSLineChart_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED92A3500E6AFF63B861F5451EC64D40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE35B7430FD7C91E8CC808A3540CF2E /* Foundation.framework */; };
+		F0C151CA05C06C92B1BB0F77F1CE758C /* SSLineChart-watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B6751C1CF5AACCCD043115CD69BFFD /* SSLineChart-watchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		219CCD2ADCC7583B62A7060B5DACBEBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05C33CE24346D02285AD9E9A5006CC68;
+			remoteInfo = "SSLineChart-watchOS";
+		};
+		474B03152F6A11F6BC9C7ADDB598F95E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F5097C30268293097388C1E0251C709;
+			remoteInfo = "Pods-SSLineChart_Example";
+		};
+		6F9ED429151A29BAC92269B93FFACE67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA19364838440C192D79F9D1211A7C0;
+			remoteInfo = "SSLineChart-iOS";
+		};
+		92499E107E6094ED6D609BE8666A6ACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05C33CE24346D02285AD9E9A5006CC68;
+			remoteInfo = "SSLineChart-watchOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0635FD80ADC774F3EB15DFCAB85BA4D1 /* Pods-SSLineChart_Example (watchOS) WatchKit Extension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSLineChart_Example (watchOS) WatchKit Extension-Info.plist"; sourceTree = "<group>"; };
+		070CC674029C9A51BB20FB9A89CD70BF /* SSLineChart-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSLineChart-iOS-dummy.m"; sourceTree = "<group>"; };
+		08B6751C1CF5AACCCD043115CD69BFFD /* SSLineChart-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SSLineChart-watchOS-umbrella.h"; path = "../SSLineChart-watchOS/SSLineChart-watchOS-umbrella.h"; sourceTree = "<group>"; };
+		0B10DA454C14379E054E7DA0368C6BF0 /* Pods-SSLineChart_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSLineChart_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0B3828252C75FB83512E211BCE64814D /* SSLineChart-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SSLineChart-iOS-Info.plist"; sourceTree = "<group>"; };
+		111C7D02DE5B214139BC50611F898614 /* Pods-SSLineChart_Example (watchOS) WatchKit Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSLineChart_Example (watchOS) WatchKit Extension-umbrella.h"; sourceTree = "<group>"; };
+		15CB8666B694C7FBEB7E8ECC487E1788 /* Pods-SSLineChart_Example (watchOS) WatchKit Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SSLineChart_Example (watchOS) WatchKit Extension.modulemap"; sourceTree = "<group>"; };
+		2258FA2055FA7A1C3F5F70560E306F5F /* SSLineChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSLineChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B46219A9CA99C033D138D7072A9ED37 /* SSLineChart-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SSLineChart-watchOS-dummy.m"; path = "../SSLineChart-watchOS/SSLineChart-watchOS-dummy.m"; sourceTree = "<group>"; };
+		2F83007174D79F5020DDE07B3AB983AE /* Pods-SSLineChart_Example (watchOS) WatchKit App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSLineChart_Example (watchOS) WatchKit App-umbrella.h"; sourceTree = "<group>"; };
+		3578EE03FD4E079009A29B2272286B3D /* SSLineChart-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "SSLineChart-watchOS.modulemap"; path = "../SSLineChart-watchOS/SSLineChart-watchOS.modulemap"; sourceTree = "<group>"; };
+		391FBCBCE94FD62175C83D79EB74DA0C /* SSLineChart-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SSLineChart-watchOS.debug.xcconfig"; path = "../SSLineChart-watchOS/SSLineChart-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		3A25AB928B7601212987D5ED4E7F0253 /* SSLineChart-watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SSLineChart-watchOS.release.xcconfig"; path = "../SSLineChart-watchOS/SSLineChart-watchOS.release.xcconfig"; sourceTree = "<group>"; };
+		3AE07DB41011DFE34506A610069EC523 /* Pods_SSLineChart_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSLineChart_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D7F98E3F905F24DB574B706E4E10FE7 /* SSLineChart-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SSLineChart-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		3DBE148181D077876535F1DE6AD267DE /* Pods-SSLineChart_Example (watchOS) WatchKit App */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SSLineChart_Example (watchOS) WatchKit App"; path = Pods_SSLineChart_Example__watchOS__WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4286D7824829CEDC9F2AB2D10A0CFCFE /* Pods-SSLineChart_Example (watchOS) WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSLineChart_Example (watchOS) WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		461373B888A5DA5963EF169A4BA4AAFF /* Pods-SSLineChart_Example (watchOS) WatchKit App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SSLineChart_Example (watchOS) WatchKit App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		461ADEA5B25670AEDFAEC2912B352DAF /* Pods-SSLineChart_Example (watchOS) WatchKit Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSLineChart_Example (watchOS) WatchKit Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		47DD17DC7F85CE8733D263BFDEA5DA58 /* Pods-SSLineChart_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SSLineChart_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A4B9DA3EF45C321010D50798B0CC200 /* Pods-SSLineChart_Example (watchOS) WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSLineChart_Example (watchOS) WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		4BB7709902FD1C46DBCE8898767FA12B /* SSLineChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSLineChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51546042185392FBA7091BCC0479643D /* Pods-SSLineChart_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSLineChart_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5873603EB198A5644E46604F66B0506C /* Pods-SSLineChart_Example (watchOS) WatchKit App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSLineChart_Example (watchOS) WatchKit App-Info.plist"; sourceTree = "<group>"; };
+		5D0A982A9433AACEF8A61353293CF443 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6020BA335F2E12FB615ACD920A45CE55 /* Pods-SSLineChart_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSLineChart_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		62E0B411F86037B8758F27B08C1176DF /* Pods-SSLineChart_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSLineChart_Tests-Info.plist"; sourceTree = "<group>"; };
+		689FFD955B64691A2966FD5B44185062 /* Pods-SSLineChart_Example (watchOS) WatchKit Extension */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SSLineChart_Example (watchOS) WatchKit Extension"; path = Pods_SSLineChart_Example__watchOS__WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AC85892710443A1B4CE328485A8670B /* Pods-SSLineChart_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSLineChart_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6BB4CA9F9EDD16301669BDC5992C8824 /* Pods-SSLineChart_Example (watchOS) WatchKit App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSLineChart_Example (watchOS) WatchKit App-frameworks.sh"; sourceTree = "<group>"; };
+		703A52BD863F95F79D39B7E33320814D /* SSLineChart-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSLineChart-iOS-prefix.pch"; sourceTree = "<group>"; };
+		77E6A6D0BC749945C3C2ABB4AB41CC6E /* Pods-SSLineChart_Example (watchOS) WatchKit App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSLineChart_Example (watchOS) WatchKit App-acknowledgements.plist"; sourceTree = "<group>"; };
+		79F5ABD825324D4CFF6C7DD1B05C01F6 /* Pods-SSLineChart_Example (watchOS) WatchKit Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSLineChart_Example (watchOS) WatchKit Extension-dummy.m"; sourceTree = "<group>"; };
+		7A19F08C3F72A153DC572C969AF9E728 /* Pods-SSLineChart_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSLineChart_Example-dummy.m"; sourceTree = "<group>"; };
+		841D0616DB1AC7523466BE28BA68791A /* SSLineChart-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SSLineChart-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		8982261549134C8284C1CCE874D787B0 /* Pods-SSLineChart_Example (watchOS) WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSLineChart_Example (watchOS) WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		89E5BCFA886619B768D82EAA83D26BD8 /* Pods-SSLineChart_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSLineChart_Tests-dummy.m"; sourceTree = "<group>"; };
+		8B2EEF5D196198AE8534AECE26BF5041 /* Pods-SSLineChart_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSLineChart_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		95B2C6C5E9BDEA0A2AE2ED7E469C127A /* SSLineChart-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "SSLineChart-iOS.modulemap"; sourceTree = "<group>"; };
+		96BB33B7B59E98F6740A39C6AC86E8F0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A08136A5C052A6BDF64F5F945A1EA8B7 /* Pods-SSLineChart_Example (watchOS) WatchKit Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SSLineChart_Example (watchOS) WatchKit Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A4E4D526F2177F3D2643805A88E5A1BB /* SSLineChart.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SSLineChart.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A51383BDE20BD653A0A9FF2D2D6F4895 /* Pods-SSLineChart_Example (watchOS) WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSLineChart_Example (watchOS) WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		AE5F4D364DAC3F130B4DA689EC05C20F /* Pods-SSLineChart_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SSLineChart_Example.modulemap"; sourceTree = "<group>"; };
+		B03623155EEBB752654965C0572CDD4A /* Pods-SSLineChart_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSLineChart_Example-umbrella.h"; sourceTree = "<group>"; };
+		BADCC0BE19680E096F696A861802068F /* Pods-SSLineChart_Example (watchOS) WatchKit Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSLineChart_Example (watchOS) WatchKit Extension-frameworks.sh"; sourceTree = "<group>"; };
+		BC5BC6B45670AF01B9D3F07D2AA60BE8 /* SSLineChart-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSLineChart-iOS-umbrella.h"; sourceTree = "<group>"; };
+		BCB31EE5758BB2B18E9A4533A1B71783 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BF2566CE8B45A0369E7A5AA1D91F11E2 /* Pods-SSLineChart_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SSLineChart_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D04A44C7EF30B5BDFA330AC20CD63946 /* Pods-SSLineChart_Example (watchOS) WatchKit App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSLineChart_Example (watchOS) WatchKit App-dummy.m"; sourceTree = "<group>"; };
+		D1108AB3B7E3947F62AC232F6CDE1C33 /* Pods-SSLineChart_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSLineChart_Example-Info.plist"; sourceTree = "<group>"; };
+		D1FA3EC90730D4424A012E8AB1F8EC73 /* SSLineChart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLineChart.swift; path = Charts/SSLineChart.swift; sourceTree = "<group>"; };
+		D2AE271531CEDB07E22623148029887C /* Pods-SSLineChart_Example (watchOS) WatchKit App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SSLineChart_Example (watchOS) WatchKit App.modulemap"; sourceTree = "<group>"; };
+		D3117F824D84F215F7C0E622CA535952 /* Pods-SSLineChart_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSLineChart_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D3FA2E046EEA3AD3F322C07FF75B98FA /* Pods-SSLineChart_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSLineChart_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D4E5E7CC7939309FC6D4E659401A55B5 /* SSLineChart-watchOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "SSLineChart-watchOS-Info.plist"; path = "../SSLineChart-watchOS/SSLineChart-watchOS-Info.plist"; sourceTree = "<group>"; };
+		D4EEEE5A2CE5C29308DF4C7DCFC805F1 /* Pods-SSLineChart_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSLineChart_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DFBAC58FF29D1AFCC9F6A9A0361E0E7E /* Pods_SSLineChart_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSLineChart_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA565F8A1E82E87F0197417E115E584 /* SSLineChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLineChartData.swift; path = Charts/SSLineChartData.swift; sourceTree = "<group>"; };
+		EDDDA5633ABFD74449767B5AAE38D798 /* Pods-SSLineChart_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SSLineChart_Tests.modulemap"; sourceTree = "<group>"; };
+		EF26C8712CEC17F65421A5D4A13A985E /* SSLineChart-watchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SSLineChart-watchOS-prefix.pch"; path = "../SSLineChart-watchOS/SSLineChart-watchOS-prefix.pch"; sourceTree = "<group>"; };
+		FCE35B7430FD7C91E8CC808A3540CF2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F8B47F15195E871FC2B7245F99F59DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED92A3500E6AFF63B861F5451EC64D40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		532C5AA31AC528D9FF303EC806BC1FBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC3F94F0330C02688821C582CC7B8FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614B2CD48B4B436925F217EF7C22E219 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F82E9833CDFC35179D74C43B91CF15C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74CB30C4ECD840A25AFBE7A263AE7193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0E1B84842DCC32D7F93AFD1D0AE652 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2494F251DD778067907EF177BDD9943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8B35C6E2B6727ACD104D2E613B4D855 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AE664B0971331A6346F87742A154CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C032487834C92DF3096DB5FB5F75854A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03FBABE5ACCBF0D21AB61D364299D310 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5D0A982A9433AACEF8A61353293CF443 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2498751461690268A27B8201B0D6F0FD /* Pods-SSLineChart_Example */ = {
+			isa = PBXGroup;
+			children = (
+				AE5F4D364DAC3F130B4DA689EC05C20F /* Pods-SSLineChart_Example.modulemap */,
+				BF2566CE8B45A0369E7A5AA1D91F11E2 /* Pods-SSLineChart_Example-acknowledgements.markdown */,
+				51546042185392FBA7091BCC0479643D /* Pods-SSLineChart_Example-acknowledgements.plist */,
+				7A19F08C3F72A153DC572C969AF9E728 /* Pods-SSLineChart_Example-dummy.m */,
+				0B10DA454C14379E054E7DA0368C6BF0 /* Pods-SSLineChart_Example-frameworks.sh */,
+				D1108AB3B7E3947F62AC232F6CDE1C33 /* Pods-SSLineChart_Example-Info.plist */,
+				B03623155EEBB752654965C0572CDD4A /* Pods-SSLineChart_Example-umbrella.h */,
+				6AC85892710443A1B4CE328485A8670B /* Pods-SSLineChart_Example.debug.xcconfig */,
+				D3117F824D84F215F7C0E622CA535952 /* Pods-SSLineChart_Example.release.xcconfig */,
+			);
+			name = "Pods-SSLineChart_Example";
+			path = "Target Support Files/Pods-SSLineChart_Example";
+			sourceTree = "<group>";
+		};
+		476A6776376B7C7C4753A002A31D8D3A /* Pods-SSLineChart_Example (watchOS) WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				15CB8666B694C7FBEB7E8ECC487E1788 /* Pods-SSLineChart_Example (watchOS) WatchKit Extension.modulemap */,
+				A08136A5C052A6BDF64F5F945A1EA8B7 /* Pods-SSLineChart_Example (watchOS) WatchKit Extension-acknowledgements.markdown */,
+				461ADEA5B25670AEDFAEC2912B352DAF /* Pods-SSLineChart_Example (watchOS) WatchKit Extension-acknowledgements.plist */,
+				79F5ABD825324D4CFF6C7DD1B05C01F6 /* Pods-SSLineChart_Example (watchOS) WatchKit Extension-dummy.m */,
+				BADCC0BE19680E096F696A861802068F /* Pods-SSLineChart_Example (watchOS) WatchKit Extension-frameworks.sh */,
+				0635FD80ADC774F3EB15DFCAB85BA4D1 /* Pods-SSLineChart_Example (watchOS) WatchKit Extension-Info.plist */,
+				111C7D02DE5B214139BC50611F898614 /* Pods-SSLineChart_Example (watchOS) WatchKit Extension-umbrella.h */,
+				4A4B9DA3EF45C321010D50798B0CC200 /* Pods-SSLineChart_Example (watchOS) WatchKit Extension.debug.xcconfig */,
+				8982261549134C8284C1CCE874D787B0 /* Pods-SSLineChart_Example (watchOS) WatchKit Extension.release.xcconfig */,
+			);
+			name = "Pods-SSLineChart_Example (watchOS) WatchKit Extension";
+			path = "Target Support Files/Pods-SSLineChart_Example (watchOS) WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		53EA10619661DB738A92CAE1D4BA80B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFBAC58FF29D1AFCC9F6A9A0361E0E7E /* Pods_SSLineChart_Example.framework */,
+				3DBE148181D077876535F1DE6AD267DE /* Pods-SSLineChart_Example (watchOS) WatchKit App */,
+				689FFD955B64691A2966FD5B44185062 /* Pods-SSLineChart_Example (watchOS) WatchKit Extension */,
+				3AE07DB41011DFE34506A610069EC523 /* Pods_SSLineChart_Tests.framework */,
+				4BB7709902FD1C46DBCE8898767FA12B /* SSLineChart.framework */,
+				2258FA2055FA7A1C3F5F70560E306F5F /* SSLineChart.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54CCD06893F300F5B2C02DAFD57093E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03FBABE5ACCBF0D21AB61D364299D310 /* iOS */,
+				8B063FB5829CC11F1F48DAAF9305FCB4 /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		622FEB222A78C61226F6AC28D6207E98 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF91536171424986B3F02F870A6F9A81 /* SSLineChart */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8B063FB5829CC11F1F48DAAF9305FCB4 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				FCE35B7430FD7C91E8CC808A3540CF2E /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		94B30D253756BC0DFB03A900F5AB7E15 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				96BB33B7B59E98F6740A39C6AC86E8F0 /* LICENSE */,
+				BCB31EE5758BB2B18E9A4533A1B71783 /* README.md */,
+				A4E4D526F2177F3D2643805A88E5A1BB /* SSLineChart.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BA9FAFE87DE4F0FCD9DE84365337C1FD /* Pods-SSLineChart_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EDDDA5633ABFD74449767B5AAE38D798 /* Pods-SSLineChart_Tests.modulemap */,
+				47DD17DC7F85CE8733D263BFDEA5DA58 /* Pods-SSLineChart_Tests-acknowledgements.markdown */,
+				D3FA2E046EEA3AD3F322C07FF75B98FA /* Pods-SSLineChart_Tests-acknowledgements.plist */,
+				89E5BCFA886619B768D82EAA83D26BD8 /* Pods-SSLineChart_Tests-dummy.m */,
+				62E0B411F86037B8758F27B08C1176DF /* Pods-SSLineChart_Tests-Info.plist */,
+				D4EEEE5A2CE5C29308DF4C7DCFC805F1 /* Pods-SSLineChart_Tests-umbrella.h */,
+				6020BA335F2E12FB615ACD920A45CE55 /* Pods-SSLineChart_Tests.debug.xcconfig */,
+				8B2EEF5D196198AE8534AECE26BF5041 /* Pods-SSLineChart_Tests.release.xcconfig */,
+			);
+			name = "Pods-SSLineChart_Tests";
+			path = "Target Support Files/Pods-SSLineChart_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				622FEB222A78C61226F6AC28D6207E98 /* Development Pods */,
+				54CCD06893F300F5B2C02DAFD57093E1 /* Frameworks */,
+				53EA10619661DB738A92CAE1D4BA80B5 /* Products */,
+				DE4EBA9B3B7DCFF2A3E572C3669BBEB2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DE4EBA9B3B7DCFF2A3E572C3669BBEB2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2498751461690268A27B8201B0D6F0FD /* Pods-SSLineChart_Example */,
+				F406CE150F51C3C6882214B16406E7EB /* Pods-SSLineChart_Example (watchOS) WatchKit App */,
+				476A6776376B7C7C4753A002A31D8D3A /* Pods-SSLineChart_Example (watchOS) WatchKit Extension */,
+				BA9FAFE87DE4F0FCD9DE84365337C1FD /* Pods-SSLineChart_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EF91536171424986B3F02F870A6F9A81 /* SSLineChart */ = {
+			isa = PBXGroup;
+			children = (
+				D1FA3EC90730D4424A012E8AB1F8EC73 /* SSLineChart.swift */,
+				EBA565F8A1E82E87F0197417E115E584 /* SSLineChartData.swift */,
+				94B30D253756BC0DFB03A900F5AB7E15 /* Pod */,
+				F2D83902CE36B1B8FBAF1383A5E58CC4 /* Support Files */,
+			);
+			name = SSLineChart;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F2D83902CE36B1B8FBAF1383A5E58CC4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				95B2C6C5E9BDEA0A2AE2ED7E469C127A /* SSLineChart-iOS.modulemap */,
+				070CC674029C9A51BB20FB9A89CD70BF /* SSLineChart-iOS-dummy.m */,
+				0B3828252C75FB83512E211BCE64814D /* SSLineChart-iOS-Info.plist */,
+				703A52BD863F95F79D39B7E33320814D /* SSLineChart-iOS-prefix.pch */,
+				BC5BC6B45670AF01B9D3F07D2AA60BE8 /* SSLineChart-iOS-umbrella.h */,
+				3D7F98E3F905F24DB574B706E4E10FE7 /* SSLineChart-iOS.debug.xcconfig */,
+				841D0616DB1AC7523466BE28BA68791A /* SSLineChart-iOS.release.xcconfig */,
+				3578EE03FD4E079009A29B2272286B3D /* SSLineChart-watchOS.modulemap */,
+				2B46219A9CA99C033D138D7072A9ED37 /* SSLineChart-watchOS-dummy.m */,
+				D4E5E7CC7939309FC6D4E659401A55B5 /* SSLineChart-watchOS-Info.plist */,
+				EF26C8712CEC17F65421A5D4A13A985E /* SSLineChart-watchOS-prefix.pch */,
+				08B6751C1CF5AACCCD043115CD69BFFD /* SSLineChart-watchOS-umbrella.h */,
+				391FBCBCE94FD62175C83D79EB74DA0C /* SSLineChart-watchOS.debug.xcconfig */,
+				3A25AB928B7601212987D5ED4E7F0253 /* SSLineChart-watchOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SSLineChart-iOS";
+			sourceTree = "<group>";
+		};
+		F406CE150F51C3C6882214B16406E7EB /* Pods-SSLineChart_Example (watchOS) WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D2AE271531CEDB07E22623148029887C /* Pods-SSLineChart_Example (watchOS) WatchKit App.modulemap */,
+				461373B888A5DA5963EF169A4BA4AAFF /* Pods-SSLineChart_Example (watchOS) WatchKit App-acknowledgements.markdown */,
+				77E6A6D0BC749945C3C2ABB4AB41CC6E /* Pods-SSLineChart_Example (watchOS) WatchKit App-acknowledgements.plist */,
+				D04A44C7EF30B5BDFA330AC20CD63946 /* Pods-SSLineChart_Example (watchOS) WatchKit App-dummy.m */,
+				6BB4CA9F9EDD16301669BDC5992C8824 /* Pods-SSLineChart_Example (watchOS) WatchKit App-frameworks.sh */,
+				5873603EB198A5644E46604F66B0506C /* Pods-SSLineChart_Example (watchOS) WatchKit App-Info.plist */,
+				2F83007174D79F5020DDE07B3AB983AE /* Pods-SSLineChart_Example (watchOS) WatchKit App-umbrella.h */,
+				4286D7824829CEDC9F2AB2D10A0CFCFE /* Pods-SSLineChart_Example (watchOS) WatchKit App.debug.xcconfig */,
+				A51383BDE20BD653A0A9FF2D2D6F4895 /* Pods-SSLineChart_Example (watchOS) WatchKit App.release.xcconfig */,
+			);
+			name = "Pods-SSLineChart_Example (watchOS) WatchKit App";
+			path = "Target Support Files/Pods-SSLineChart_Example (watchOS) WatchKit App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B100C73442B014240F069A74865D7AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEFEC715143ED0F797D5E3BBFFC84595 /* Pods-SSLineChart_Example (watchOS) WatchKit Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE4151DF87E2EE585FADB012CB7F7D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6176299F2ED71205D2624379B1A0348E /* Pods-SSLineChart_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A864E85B8128EB130B0D70B89ACA67D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E6E2B1822B09AF91BE0E634580D0AC /* Pods-SSLineChart_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8542CBC38F4B7338FC9BE1755849C5AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621F179FDF27E69A00FCADF16CA07325 /* Pods-SSLineChart_Example (watchOS) WatchKit App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE7471A6E77117946332CD1BAB8CDA1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA69C8AE89A73EB64EC3A5A0F4A4B83B /* SSLineChart-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D838A7DFEAC30C6209F0F3FB390B7067 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C151CA05C06C92B1BB0F77F1CE758C /* SSLineChart-watchOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05C33CE24346D02285AD9E9A5006CC68 /* SSLineChart-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF3C0C2FD6AF8E322CC4737B63E0AAAA /* Build configuration list for PBXNativeTarget "SSLineChart-watchOS" */;
+			buildPhases = (
+				D838A7DFEAC30C6209F0F3FB390B7067 /* Headers */,
+				DB1D2891D534E6B1DFA1B718A6630877 /* Sources */,
+				1F8B47F15195E871FC2B7245F99F59DB /* Frameworks */,
+				BBA5707A1FD84089C5B41836941FB714 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SSLineChart-watchOS";
+			productName = SSLineChart;
+			productReference = 2258FA2055FA7A1C3F5F70560E306F5F /* SSLineChart.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F5097C30268293097388C1E0251C709 /* Pods-SSLineChart_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72C9454438FF0106523B134DD05CC406 /* Build configuration list for PBXNativeTarget "Pods-SSLineChart_Example" */;
+			buildPhases = (
+				4A864E85B8128EB130B0D70B89ACA67D /* Headers */,
+				024C5DABB829365A75ADAF2B930CE74B /* Sources */,
+				532C5AA31AC528D9FF303EC806BC1FBF /* Frameworks */,
+				31B38B543E3832F9FAA0C6131DEE172D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F234D1801A5C54FF418A74A6AE3B8D9 /* PBXTargetDependency */,
+			);
+			name = "Pods-SSLineChart_Example";
+			productName = Pods_SSLineChart_Example;
+			productReference = DFBAC58FF29D1AFCC9F6A9A0361E0E7E /* Pods_SSLineChart_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9402CC0750C9C037CEB2ECC68CAF1044 /* Pods-SSLineChart_Example (watchOS) WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2F3AFE4226D786424DFD223B640AD7A /* Build configuration list for PBXNativeTarget "Pods-SSLineChart_Example (watchOS) WatchKit App" */;
+			buildPhases = (
+				8542CBC38F4B7338FC9BE1755849C5AD /* Headers */,
+				024A7F87B78C7598CF45E437C9D5A044 /* Sources */,
+				C2494F251DD778067907EF177BDD9943 /* Frameworks */,
+				F99345EAF0025E61D5DA8A46E3EE9599 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				130B7A80655775F81B6F443415FAD3EB /* PBXTargetDependency */,
+			);
+			name = "Pods-SSLineChart_Example (watchOS) WatchKit App";
+			productName = Pods_SSLineChart_Example__watchOS__WatchKit_App;
+			productReference = 3DBE148181D077876535F1DE6AD267DE /* Pods-SSLineChart_Example (watchOS) WatchKit App */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9D40FCF04CFAC1F7CDFB20A2BB9BFAE /* Pods-SSLineChart_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17575DCE074228E354AC78F937D39154 /* Build configuration list for PBXNativeTarget "Pods-SSLineChart_Tests" */;
+			buildPhases = (
+				2BE4151DF87E2EE585FADB012CB7F7D7 /* Headers */,
+				9BEC561B19F84B96101FD5808A85D48F /* Sources */,
+				C4AE664B0971331A6346F87742A154CE /* Frameworks */,
+				E51F87851F197F6EE952C6E770F242A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F92BEF8DDF8BB2AB90C66D85159B5BA /* PBXTargetDependency */,
+			);
+			name = "Pods-SSLineChart_Tests";
+			productName = Pods_SSLineChart_Tests;
+			productReference = 3AE07DB41011DFE34506A610069EC523 /* Pods_SSLineChart_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CEA19364838440C192D79F9D1211A7C0 /* SSLineChart-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB429C7646402FDB6D568B56F99B589 /* Build configuration list for PBXNativeTarget "SSLineChart-iOS" */;
+			buildPhases = (
+				9AE7471A6E77117946332CD1BAB8CDA1 /* Headers */,
+				7100CE0B26DE8DA5C2AAAAF79B7DC4CD /* Sources */,
+				74CB30C4ECD840A25AFBE7A263AE7193 /* Frameworks */,
+				F2E5059A0C86CB5B87642ACEBBAA999B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SSLineChart-iOS";
+			productName = SSLineChart;
+			productReference = 4BB7709902FD1C46DBCE8898767FA12B /* SSLineChart.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D35F9259D744A6E93224434930A67F6F /* Pods-SSLineChart_Example (watchOS) WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C851F3EEA9F2DFEDE17DA4DD00A534B /* Build configuration list for PBXNativeTarget "Pods-SSLineChart_Example (watchOS) WatchKit Extension" */;
+			buildPhases = (
+				1B100C73442B014240F069A74865D7AB /* Headers */,
+				F66DEB5EC79E5A813A1F4EB3B95247BF /* Sources */,
+				614B2CD48B4B436925F217EF7C22E219 /* Frameworks */,
+				049FA60650AF2A4B5CD418E8D686586D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E3B662050CC71CEEE7B9AA6523B6FC1 /* PBXTargetDependency */,
+			);
+			name = "Pods-SSLineChart_Example (watchOS) WatchKit Extension";
+			productName = Pods_SSLineChart_Example__watchOS__WatchKit_Extension;
+			productReference = 689FFD955B64691A2966FD5B44185062 /* Pods-SSLineChart_Example (watchOS) WatchKit Extension */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1330;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 53EA10619661DB738A92CAE1D4BA80B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F5097C30268293097388C1E0251C709 /* Pods-SSLineChart_Example */,
+				9402CC0750C9C037CEB2ECC68CAF1044 /* Pods-SSLineChart_Example (watchOS) WatchKit App */,
+				D35F9259D744A6E93224434930A67F6F /* Pods-SSLineChart_Example (watchOS) WatchKit Extension */,
+				A9D40FCF04CFAC1F7CDFB20A2BB9BFAE /* Pods-SSLineChart_Tests */,
+				CEA19364838440C192D79F9D1211A7C0 /* SSLineChart-iOS */,
+				05C33CE24346D02285AD9E9A5006CC68 /* SSLineChart-watchOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		049FA60650AF2A4B5CD418E8D686586D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31B38B543E3832F9FAA0C6131DEE172D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBA5707A1FD84089C5B41836941FB714 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E51F87851F197F6EE952C6E770F242A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E5059A0C86CB5B87642ACEBBAA999B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99345EAF0025E61D5DA8A46E3EE9599 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		024A7F87B78C7598CF45E437C9D5A044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B335C8E40D91D05D94B6741DD3929A0F /* Pods-SSLineChart_Example (watchOS) WatchKit App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024C5DABB829365A75ADAF2B930CE74B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3504B8B22EFFA1281ED9BF7390474842 /* Pods-SSLineChart_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7100CE0B26DE8DA5C2AAAAF79B7DC4CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC22CE1C28620A3700FF768E /* SSLineChart.swift in Sources */,
+				BC22CE1D28620A3A00FF768E /* SSLineChartData.swift in Sources */,
+				E00CF613C372CAE39D7C2F9793D329DB /* SSLineChart-iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BEC561B19F84B96101FD5808A85D48F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCB4D7EF39F965522B471BFEB484AE9 /* Pods-SSLineChart_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1D2891D534E6B1DFA1B718A6630877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC22CE1F28620A3E00FF768E /* SSLineChart.swift in Sources */,
+				BC22CE1E28620A3C00FF768E /* SSLineChartData.swift in Sources */,
+				A428D6F0ADEDDE22C74ECB3DD57D4A07 /* SSLineChart-watchOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F66DEB5EC79E5A813A1F4EB3B95247BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619D832AC6CC0FBEF96C43BFAEDC19E3 /* Pods-SSLineChart_Example (watchOS) WatchKit Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		130B7A80655775F81B6F443415FAD3EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SSLineChart-watchOS";
+			target = 05C33CE24346D02285AD9E9A5006CC68 /* SSLineChart-watchOS */;
+			targetProxy = 219CCD2ADCC7583B62A7060B5DACBEBF /* PBXContainerItemProxy */;
+		};
+		5F234D1801A5C54FF418A74A6AE3B8D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SSLineChart-iOS";
+			target = CEA19364838440C192D79F9D1211A7C0 /* SSLineChart-iOS */;
+			targetProxy = 6F9ED429151A29BAC92269B93FFACE67 /* PBXContainerItemProxy */;
+		};
+		6E3B662050CC71CEEE7B9AA6523B6FC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SSLineChart-watchOS";
+			target = 05C33CE24346D02285AD9E9A5006CC68 /* SSLineChart-watchOS */;
+			targetProxy = 92499E107E6094ED6D609BE8666A6ACC /* PBXContainerItemProxy */;
+		};
+		6F92BEF8DDF8BB2AB90C66D85159B5BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SSLineChart_Example";
+			target = 8F5097C30268293097388C1E0251C709 /* Pods-SSLineChart_Example */;
+			targetProxy = 474B03152F6A11F6BC9C7ADDB598F95E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02BB0C8F6A557463BAC6DEC71421AB96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A51383BDE20BD653A0A9FF2D2D6F4895 /* Pods-SSLineChart_Example (watchOS) WatchKit App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SSLineChart_Example (watchOS) WatchKit App/Pods-SSLineChart_Example (watchOS) WatchKit App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SSLineChart_Example (watchOS) WatchKit App/Pods-SSLineChart_Example (watchOS) WatchKit App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		1510E9AFCCA72113AE5EF49A712EDC0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A4B9DA3EF45C321010D50798B0CC200 /* Pods-SSLineChart_Example (watchOS) WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SSLineChart_Example (watchOS) WatchKit Extension/Pods-SSLineChart_Example (watchOS) WatchKit Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SSLineChart_Example (watchOS) WatchKit Extension/Pods-SSLineChart_Example (watchOS) WatchKit Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		22F882D154643249CE5B037A251F1DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 391FBCBCE94FD62175C83D79EB74DA0C /* SSLineChart-watchOS.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SSLineChart-watchOS/SSLineChart-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSLineChart-watchOS/SSLineChart-watchOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSLineChart-watchOS/SSLineChart-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = SSLineChart;
+				PRODUCT_NAME = SSLineChart;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		32A5BEA89A877188A2E9124475936BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 841D0616DB1AC7523466BE28BA68791A /* SSLineChart-iOS.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SSLineChart-iOS/SSLineChart-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSLineChart-iOS/SSLineChart-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSLineChart-iOS/SSLineChart-iOS.modulemap";
+				PRODUCT_MODULE_NAME = SSLineChart;
+				PRODUCT_NAME = SSLineChart;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		413C5A6F4AAF5C965AAC4FDB244F72EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		46B3FE87A7E128A22D8BA0132563FF68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B2EEF5D196198AE8534AECE26BF5041 /* Pods-SSLineChart_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SSLineChart_Tests/Pods-SSLineChart_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SSLineChart_Tests/Pods-SSLineChart_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		51BE80FBB4401564A4D4950A0809641A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		6390ACF0C59CAA69D084132F382DD550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AC85892710443A1B4CE328485A8670B /* Pods-SSLineChart_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SSLineChart_Example/Pods-SSLineChart_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SSLineChart_Example/Pods-SSLineChart_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7F49D980AD8B7451CDB135609D38EB5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8982261549134C8284C1CCE874D787B0 /* Pods-SSLineChart_Example (watchOS) WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SSLineChart_Example (watchOS) WatchKit Extension/Pods-SSLineChart_Example (watchOS) WatchKit Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SSLineChart_Example (watchOS) WatchKit Extension/Pods-SSLineChart_Example (watchOS) WatchKit Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		8C04B85A494D5F96906BDD84B80EAB8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6020BA335F2E12FB615ACD920A45CE55 /* Pods-SSLineChart_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SSLineChart_Tests/Pods-SSLineChart_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SSLineChart_Tests/Pods-SSLineChart_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A29FF166D9B0DE745AF1C6A0A48F17AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A25AB928B7601212987D5ED4E7F0253 /* SSLineChart-watchOS.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SSLineChart-watchOS/SSLineChart-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSLineChart-watchOS/SSLineChart-watchOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSLineChart-watchOS/SSLineChart-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = SSLineChart;
+				PRODUCT_NAME = SSLineChart;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		AF39062EDBCF6D857C8FD69A3FD22B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4286D7824829CEDC9F2AB2D10A0CFCFE /* Pods-SSLineChart_Example (watchOS) WatchKit App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SSLineChart_Example (watchOS) WatchKit App/Pods-SSLineChart_Example (watchOS) WatchKit App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SSLineChart_Example (watchOS) WatchKit App/Pods-SSLineChart_Example (watchOS) WatchKit App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		E41F43B131064CC2F0A6E00A474C9021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3117F824D84F215F7C0E622CA535952 /* Pods-SSLineChart_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SSLineChart_Example/Pods-SSLineChart_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SSLineChart_Example/Pods-SSLineChart_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE1906D3DAC67A623DBD3A66A3E89BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D7F98E3F905F24DB574B706E4E10FE7 /* SSLineChart-iOS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SSLineChart-iOS/SSLineChart-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSLineChart-iOS/SSLineChart-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSLineChart-iOS/SSLineChart-iOS.modulemap";
+				PRODUCT_MODULE_NAME = SSLineChart;
+				PRODUCT_NAME = SSLineChart;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17575DCE074228E354AC78F937D39154 /* Build configuration list for PBXNativeTarget "Pods-SSLineChart_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C04B85A494D5F96906BDD84B80EAB8B /* Debug */,
+				46B3FE87A7E128A22D8BA0132563FF68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB429C7646402FDB6D568B56F99B589 /* Build configuration list for PBXNativeTarget "SSLineChart-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1906D3DAC67A623DBD3A66A3E89BF8 /* Debug */,
+				32A5BEA89A877188A2E9124475936BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51BE80FBB4401564A4D4950A0809641A /* Debug */,
+				413C5A6F4AAF5C965AAC4FDB244F72EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72C9454438FF0106523B134DD05CC406 /* Build configuration list for PBXNativeTarget "Pods-SSLineChart_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6390ACF0C59CAA69D084132F382DD550 /* Debug */,
+				E41F43B131064CC2F0A6E00A474C9021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C851F3EEA9F2DFEDE17DA4DD00A534B /* Build configuration list for PBXNativeTarget "Pods-SSLineChart_Example (watchOS) WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1510E9AFCCA72113AE5EF49A712EDC0E /* Debug */,
+				7F49D980AD8B7451CDB135609D38EB5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF3C0C2FD6AF8E322CC4737B63E0AAAA /* Build configuration list for PBXNativeTarget "SSLineChart-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F882D154643249CE5B037A251F1DFF /* Debug */,
+				A29FF166D9B0DE745AF1C6A0A48F17AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2F3AFE4226D786424DFD223B640AD7A /* Build configuration list for PBXNativeTarget "Pods-SSLineChart_Example (watchOS) WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF39062EDBCF6D857C8FD69A3FD22B07 /* Debug */,
+				02BB0C8F6A557463BAC6DEC71421AB96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
